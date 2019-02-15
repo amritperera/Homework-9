@@ -15,6 +15,11 @@ div {
   overflow: hidden;
 }
 
+h2 {
+  line-height: 0px;
+  text-align: center;
+  padding: 0px;
+}
 a {
   color: #322bff;
   text-decoration: underline;
@@ -52,9 +57,59 @@ li a {
   text-decoration: none;
 }
 
+
+.sumbox {
+  list-style-type: none;
+  margin: 10px;
+  padding: 50px;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+
+.table_container{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+.comparisons_container{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.vis_img {
+  text-align: center;
+}
+.vis_img a {
+  display: inline-block;
+
+}
+
+.solo_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.comp_item{
+  display: inline-block;
+  padding: -10px
+  height: auto;
+  width: auto;
 }
 
 .active {
@@ -144,17 +199,22 @@ li a:hover {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #3498DB;
+  background-color: inherit;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  font-size: inherit;
   border: none;
   cursor: pointer;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: inherit;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #111;
+  color: #26a1ff;
 }
 
 /* The container <div> - needed to position the dropdown content */
