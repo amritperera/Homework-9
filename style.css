@@ -244,3 +244,17 @@ li a:hover {
 .show {
   display: block;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
